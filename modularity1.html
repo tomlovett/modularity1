@@ -19,7 +19,7 @@
 	    		<p class="instruction-text">Style a table full of data so that it looks nicer than the brower defaults.</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
+						<table class="data_table">
 							<tr>
 								<td class="number">0</td>
 								<td>Sean</td>
@@ -32,7 +32,7 @@
 								<td>Lourie</td>
 								<td>@metaraine</td>
 							</tr>
-							<tr class='bottom'>
+							<tr class='bottom_row'>
 								<td class="number">2</td>
 								<td>Matt</td>
 								<td>Null</td>
@@ -45,10 +45,10 @@
 	    		<p class="instruction-text">It should also handle header rows...</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
+						<table class="data_table">
 							<thead>
 								<tr>
-									<th>#</th>
+									<th class="number">#</th>
 									<th>First Name</th>
 									<th>Last Name</th>
 									<th>Username</th>
@@ -56,19 +56,19 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>0</td>
+									<td class="number">0</td>
 									<td>Sean</td>
 									<td>Daaken</td>
 									<td>@seandaken</td>
 								</tr>
 								<tr>
-									<td>1</td>
+									<td class="number">1</td>
 									<td>Raine</td>
 									<td>Lourie</td>
 									<td>@metaraine</td>
 								</tr>
-								<tr>
-									<td>2</td>
+								<tr class="bottom_row">
+									<td class="number">2</td>
 									<td>Matt</td>
 									<td>Null</td>
 									<td>@nullempire</td>
@@ -86,12 +86,12 @@
 	    		<p class="instruction-text">Three columns, three prominent numbers, three small labels</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="stats">
 			    		<tbody>
 			    			<tr>
-			    				<td><div>7</div><div>followers</div></td>
-			    				<td><div>59</div><div>starred</div></td>
-			    				<td><div>28</div><div>following</div></td>
+			    				<td><div class="digits">7</div><div class="text">followers</div></td>
+			    				<td><div class="digits">59</div><div class="text">starred</div></td>
+			    				<td><div class="digits">28</div><div class="text">following</div></td>
 			    			</tr>
 			    		</tbody>
 			    	</table>
@@ -105,10 +105,10 @@
 	    		<p class="instruction-text">Bar widths are set in the HTML as if they were populated from the back-end. Everything else should be styled with CSS.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="bar_chart">
 			    		<tr>
 			    			<th>Javascript</th>
-			    			<td><div style="width: 99%">21%</div></td>
+			    			<td><div class="topper" style="width: 99%">21%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Ruby</th>

@@ -1,23 +1,68 @@
 /* ADD YOUR STYLES HERE */
-td, th {
-	width: 100px;
-	padding: 10px 125px 10px 0px;
+
+/*DATA TABLE*/
+.data_table td, .data_table th{
+	width: 125px;
+	padding: 10px 100px 10px 0px;
 }
 
 .number {
 	width: 30px;
-	padding-right: 30px;
+	padding-right: 50px;
 	text-align: center;
 }
 
-tr {
+.data_table tr {
 	border-bottom: lightgray 1px solid;
 }
 
-tr .bottom {
+.data_table .bottom_row {
 	border-bottom: none;
 }
 
-th {
+.data_table th {
 	font-style: bold;
+}
+
+/*STATS*/
+.stats {
+	border-top: lightgray 1px solid;
+	border-bottom: lightgray 1px solid;
+	text-align: center;
+	width: 30%;
+}
+
+.stats td {
+	padding: 20px;
+	width: 40px;
+}
+
+.stats .digits {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.stats .text {
+	color: lightgray;
+	font-size: 12px;
+}
+
+/*BAR CHART*/
+.bar_chart {
+
+}
+
+.bar_chart th {
+	text-align: right;
+	padding-right: 5px;
+}
+
+.bar_chart .topper {
+	width: 90%;
+}
+
+.bar_chart td {
+	background-color: peachpuff; /* Better than any other option, haha */
+	color: white;
+	padding-bottom: 2px;
 }
