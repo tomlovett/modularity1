@@ -1,1 +1,23 @@
 /* ADD YOUR STYLES HERE */
+td, th {
+	width: 100px;
+	padding: 10px 125px 10px 0px;
+}
+
+.number {
+	width: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+
+tr {
+	border-bottom: lightgray 1px solid;
+}
+
+tr .bottom {
+	border-bottom: none;
+}
+
+th {
+	font-style: bold;
+}
