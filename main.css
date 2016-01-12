@@ -1,6 +1,7 @@
 /* ADD YOUR STYLES HERE */
 
 /*DATA TABLE*/
+/*          */
 .data_table td, .data_table th{
 	width: 125px;
 	padding: 10px 100px 10px 0px;
@@ -21,6 +22,7 @@
 }
 
 /*STATS*/
+/*     */
 .stats {
 	border-top: lightgray 1px solid;
 	border-bottom: lightgray 1px solid;
@@ -44,6 +46,7 @@
 }
 
 /*BAR CHART*/
+/*         */
 .bar_chart {
 	width: 700px;
 }
@@ -60,34 +63,46 @@
 }
 
 .bar_chart .bar {
-	background-color: peachpuff; /* Better than any other option, haha */
+	background-color: #66a3ff;
 	color: white;
 	padding: 3px;
-	margin-bottom: 2px;
 	border-radius: 0px 3px 3px 0px;
 }
 
 /*LIGHTBOX*/
+/*        */
 .lightbox {
 	background-color: #404040;
-	height: 500px;
+	height: 475px;
 	width: 750px;
 }
 
+.parental_unit {
+	position: relative;
+}
+
 .lightbox .content {
+	position: absolute;
+	top: 115px;
+	left: 100px;
 	background-color: white;
-	border-radius: 5px;
-	height: 70%;
+	border-radius: 10px;
 	width: 70%;
-	margin: auto;
 	padding: 15px;
 }
 
+.lightbox .anchor_wrapper {
+	position: relative;
+	height: 30px;
+}
+
 .lightbox a {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
 	text-decoration: none;
 	padding: 5px 20px 5px 20px;
 	color: white;
 	background-color: #ff6666;
 	border-radius: 5px;
-	margin: 0px 5px 0px auto;
 }
