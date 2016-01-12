@@ -49,20 +49,33 @@
 
 /*BAR CHART*/
 .bar_chart {
+	width: 700px;
+}
+
+.bar_chart tr {
+	padding: 3px 0px 3px 0px;
+	height: auto;
 
 }
 
 .bar_chart th {
 	text-align: right;
 	padding-right: 5px;
+	width: 90px;
 }
 
-.bar_chart .topper {
-	width: 90%;
-}
-
-.bar_chart td {
+.bar_chart .bar {
 	background-color: peachpuff; /* Better than any other option, haha */
 	color: white;
-	padding-bottom: 2px;
+	padding: 3px;
+	margin-bottom: 2px;
+	border-radius: 0px 3px 3px 0px;
+
+/*LIGHTBOX*/
+.lightbox {
+	background-color: darkgrey;
+}
+
+.lightbox .content {
+	border-radius: 3px;
 }
