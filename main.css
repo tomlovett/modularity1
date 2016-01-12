@@ -16,10 +16,6 @@
 	border-bottom: lightgray 1px solid;
 }
 
-.data_table .bottom_row {
-	border-bottom: none;
-}
-
 .data_table th {
 	font-style: bold;
 }
@@ -55,7 +51,6 @@
 .bar_chart tr {
 	padding: 3px 0px 3px 0px;
 	height: auto;
-
 }
 
 .bar_chart th {
@@ -70,12 +65,29 @@
 	padding: 3px;
 	margin-bottom: 2px;
 	border-radius: 0px 3px 3px 0px;
+}
 
 /*LIGHTBOX*/
 .lightbox {
-	background-color: darkgrey;
+	background-color: #404040;
+	height: 500px;
+	width: 750px;
 }
 
 .lightbox .content {
-	border-radius: 3px;
+	background-color: white;
+	border-radius: 5px;
+	height: 70%;
+	width: 70%;
+	margin: auto;
+	padding: 15px;
+}
+
+.lightbox a {
+	text-decoration: none;
+	padding: 5px 20px 5px 20px;
+	color: white;
+	background-color: #ff6666;
+	border-radius: 5px;
+	margin: 0px 5px 0px auto;
 }
