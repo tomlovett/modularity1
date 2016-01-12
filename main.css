@@ -7,7 +7,7 @@
 	padding: 10px 100px 10px 0px;
 }
 
-.number {
+.data_table .number {
 	width: 30px;
 	padding-right: 50px;
 	text-align: center;
@@ -23,6 +23,8 @@
 
 /*STATS*/
 /*     */
+
+/*Want to move the table farther left.*/
 .stats {
 	border-top: lightgray 1px solid;
 	border-bottom: lightgray 1px solid;
@@ -72,6 +74,8 @@
 
 /*LIGHTBOX*/
 /*        */
+/*Functional if ugly centering. Not technique, simply centering each object by hand.*/
+
 .lightbox {
 	background-color: #404040;
 	height: 475px;
